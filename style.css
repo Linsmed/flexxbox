@@ -4,15 +4,14 @@ html, body {
 }
 main{
   display: flex;
-  text-align: justify;
+  text-align: left;
   font-size: small;
-  margin:              %;
-  align-items:left;
+  align-items: justify;
 }
 .one{
   background-color: #ec9d09;
   padding: 30px;
-  text-align: center;
+  text-align: justify;
 }
   
 
