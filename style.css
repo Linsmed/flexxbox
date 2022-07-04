@@ -4,9 +4,10 @@ html, body {
 }
 main{
   display: flex;
-  text-align: center;
+  text-align: justify;
   font-size: small;
   margin:              %;
+  align-items:left;
 }
 .one{
   background-color: #ec9d09;
