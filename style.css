@@ -1,29 +1,57 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: black;
 }
-main{
+#container{
+  width:1440px;
+  background-color: white;
+  box-sizing: border-box;
+  padding:38px;
   display: flex;
-  text-align: left;
-  font-size: small;
-  align-items: justify;
+  justify-content: center;
+  margin-top: 120px;
+  border: solid white 5px;
 }
-.one{
-  background-color: #ec9d09;
-  padding: 30px;
-  text-align: justify;
+.one {
+  background-color: hsl(31, 77%, 52%);
+  padding: 34px;
 }
-  
-
-.top-up{
-  background-color: darkcyan;
-  padding: 30px;
-  
+.two {
+  background-color: hsl(184, 100%, 22%);
+  padding: 34px;
 }
-  .three{
-    background-color: #8f9e9e;
-    padding: 20px;
-  }
+.three{
+  background-color: hsl(179, 100%, 13%);
+  padding: 34px;
+}
+#para{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 13px;
+  font-weight: 400;
+}
 button{
-  border-radius: 5em;
+  border-radius: 20px;
+}
+.btn-1{
+  width: 120px;
+  height: 40px;
+  color: hsl(31, 77%, 52%);
+  border:solid hsl(31, 77%, 52%)
+  
+}
+.btn-2{
+  width:120px;
+  height:40px;
+  color: hsl(184, 100%, 22%);
+  border: solid hsl(184, 100%, 22%);
+}
+.btn-3{
+  width: 120px;
+  height: 40px;
+  color: hsl(179, 100%, 13%);
+  border: solid hsl(179, 100%, 13%);
+}
+h3 {
+  color:white;
 }
